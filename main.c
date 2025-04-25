@@ -41,7 +41,7 @@ void listTasks(){
 }
 
 void markCompleted(int index){
-    if (index=length && index>0)
+    if (index==length && index>0)
     {
         tasks[index-1].completed=1;
         printf("Task marked as completed \n");
